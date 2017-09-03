@@ -1,0 +1,196 @@
+html {
+  font-size: 16px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  height: 3rem;
+  background-color: #f35252;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+header>span {
+  height: 3rem;
+  line-height: 3rem;
+  color: white;
+  font-size: 18px;
+  font-weight: 900;
+  display: inline-block;
+}
+#app{
+  padding-top:3rem;
+}
+.demo {
+  position: relative;
+}
+.demo .demo-body {
+  position: relative;
+  height: 26rem;
+}
+.min-header {
+  font-size: 1.2rem;
+  height: 3rem;
+  line-height: 3rem;
+  padding: 0 0 0 1rem;
+  background-color: #fff;
+  z-index: 20;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.demo1 {
+  overflow: hidden;
+}
+.demo1 .demo-body{
+  width: 60rem;
+  margin: 0 auto;
+}
+.demo > img.parallax-bg {
+  position: absolute;
+  top: 3rem;
+  left: 0;
+}
+.demo1 .parallax-bg {
+  position: absolute;
+  top: -20px;
+  left: 0;
+  bottom: -20px;
+  z-index: 0;
+  height: 26rem;
+}
+.demo1 .parallax-0 {
+  position: absolute;
+  top: 8rem;
+  left: 4rem;
+  z-index: 2;
+}
+.demo1 .parallax-1 {
+  position: absolute;
+  top: 9rem;
+  left: 22rem;
+  z-index: 3;
+}
+.demo1 .parallax-2 {
+  position: absolute;
+  top: 13rem;
+  left: 28rem;
+  z-index: 2;
+}
+.demo1 .parallax-3 {
+  position: absolute;
+  top: 7rem;
+  left: 34rem;
+  z-index: 1;
+}
+
+.demo-code {
+  padding: 1rem 1rem;
+  background-color: #ddd;
+  height: 7rem;
+}
+.demo-code p {
+  font-size: 1rem;
+  font-weight: 900;
+  border-bottom: 1px solid #fff;
+  padding-bottom: .5rem;
+}
+.demo-code code {
+  height: 2rem;
+  line-height: 2rem;
+  display: block;
+}
+
+.demo2 .demo-body {
+  background-color: #616763;
+  text-align: right;
+  overflow: hidden;
+}
+.demo2 .img {
+  height: 26rem;
+  display: inline-block;
+  position: relative;
+}
+.demo2 img {
+  height: 26rem;
+  z-index: 1;
+}
+.demo2 h2 {
+  position: absolute;
+  bottom: 3rem;
+  left: 3rem;
+  height: 3rem;
+  line-height: 3rem;
+  font-size: 3rem;
+  color: #fff;
+  z-index: 10;
+}
+.demo2 .relative {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.demo2 .bg {
+  position: absolute;
+  top: 8rem;
+  z-index: 2;
+  background-color: #fff;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  overflow: hidden;
+}
+.demo2 .bg-1 {
+  left: 8rem;
+}
+.demo2 .bg-2 {
+  right: 9.4rem;
+}
+.demo2 .bg .black-eye {
+  border-radius: 50%;
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: #000;
+  position: absolute;
+  top: .1rem;
+  left: .1rem;
+  overflow: hidden;
+}
+.demo2 .bg .black-eye .white {
+  border-radius: 50%;
+  height: .6rem;
+  width: .6rem;
+  background-color: #fff;
+  position: absolute;
+  top: .2rem;
+  left: .2rem;
+}
+.info {
+  height: 6rem;
+  padding: 1rem 4rem;
+}
+
+@media (max-width: 600px) {
+  /* html {
+    font-size: 14px;
+  } */
+  .demo2 .bg .black-eye {
+    top: .8rem;
+    left: .8rem;
+  }
+  .demo2 .bg .black-eye .white {
+    top: .4rem;
+    left: .4rem;
+  }
+}
